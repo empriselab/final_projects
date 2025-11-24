@@ -111,7 +111,7 @@ The AGV uses a particle filter for car_state_estimation, and there's a planner t
 - A: [3.19, 1.1]
 - Cathy: [9.7, 1.2]
 
-Remember you need to go back to Cathy for these medicines to take effect. *You are not allowed to enter a room more than the maximum threshold, and you are not allowed to enter the same room right after entering it. That means a path like ['A', 'A'] will not be valid.*
+Remember you need to go back to Cathy for these medicines to take effect. *You are not allowed to enter any room more than two times, and you are not allowed to enter the same room right after entering it. That means a path like ['A', 'A'] will not be valid.*
 
 The json file might look like:
 ```
